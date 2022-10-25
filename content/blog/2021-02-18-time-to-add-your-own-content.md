@@ -1,15 +1,30 @@
 ---
+visible: true
 createdAt: 2021-02-18
-title: Time to add your own content
-description: Remove all of the .md-files in the /content folder and go at it!
----
+title: Neuer Standort in Nüziders
+description: >-
+  Das ist der erste Artikel. Addidit nunc: finita tua celatos vacuos Morpheus
+  tigridis videre. Et an in ne
 
+  scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
+
+  fuit ulla Thestorides.
+section: Branner Mobility
+---
 ## Sit liquentibus sinu verbis et spatiarer laedar
 
 Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
 **Pelopeia**. Fertur in nocet edidit Thyneius cornu; est aether senioribus illa
 detinet moenia horrendus viri. Amo tophis Idaeis [blog](/blog)
 venerat.
+
+
+
+![](/img/branner-autohaus.jpg)
+
+
+
+
 
 Sic **nostrae habet**: este, sua illic auctor causam. Pateres argentea, nati
 ictus nondum, redeuntia vertitur ulterius quae temone potentia dominos obstitit
@@ -24,26 +39,6 @@ scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
 fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
 solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
 oris ille convicia castique.
-
-```js{1,4}[posts.vue]
-formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString(process.env.lang) || ''
-},
-async fetchPosts(
-    postType = this.postType,
-    amount = this.amount,
-    sortBy = this.sortBy,
-  ) {
-  return this.$content(postType)
-    .sortBy(sortBy.key, sortBy.direction)
-    .limit(amount)
-    .fetch()
-    .catch((err) => {
-      error({ statusCode: 404, message: amount > 1 ? 'Posts not found' : 'Post not found' })
-    });
-}
-```
 
 ## Est nec scrobibus Antissa
 

@@ -1,23 +1,19 @@
 ---
-createdAt: 2021-02-28
-title: Easy excerpt from content
+visible: true
+createdAt: 2022-09-01T05:18:34.775Z
+title: Blog Artikel
+description: >-
+  In excepteur adipisicing consequat elit sunt esse officia sint dolore sunt
+  quis ea dolore amet ea. Addidit nunc: finita tua celatos vacuos Morpheus
+  tigridis videre. Et an in ne
+
+  scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
+
+  fuit ulla Thestorides.
+section: Branner Mobility
 ---
+In excepteur adipisicing consequat elit sunt esse officia sint dolore sunt quis ea dolore amet ea.
 
-You can add an excerpt easily by writing `<!--MORE-->` in lowercase in the content.
+Quis amet adipisicing proident labore velit magna. Pariatur nostrud commodo laborum irure nisi occaecat dolore. Incididunt duis et enim consectetur est ullamco tempor pariatur consectetur elit quis excepteur. Irure proident dolore anim veniam consequat consectetur qui culpa consectetur eu velit qui sunt culpa.
 
-<!--more-->
-(It is written right before this)
-
-Then continue on with the rest of the **markdown** content.
-
-```js{4,7}[posts.vue]
-computed: {
-  placeholderClasses() {
-    const classes = ['w-full','w-2/3','w-5/6'];
-    return [...Array.from(
-      { length: this.amount },
-      (value, index) => classes[index % classes.length]
-    )]; // repeats classes after one another
-  }
-},
-```
+Quis amet adipisicing proident labore velit magna. Pariatur nostrud commodo laborum irure nisi occaecat dolore. Incididunt duis et enim consectetur est ullamco tempor pariatur consectetur elit quis excepteur. Irure proident dolore anim veniam consequat consectetur qui culpa consectetur eu velit qui sunt culpa.

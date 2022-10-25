@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Inter-Regular.ttf') format('truetype');
+  src: local(''), url('/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 600;
+  src: url('/fonts/Inter-SemiBold.ttf') format('truetype');
+  src: local(''), url('/fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 700;
+  src: url('/fonts/Inter-Bold.ttf') format('truetype');
+  src: local(''), url('/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+html,
+body {
+}
+
+main {
+  min-height: 100vh;
+}
+
+.nuxt-content h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+.nuxt-content h2 {
+  @apply text-2xl font-bold mb-4;
+}
+
+.nuxt-content h3 {
+  @apply text-xl font-bold mb-4;
+}
+
+.nuxt-content h4 {
+  @apply text-lg font-bold mb-4;
+}
+
+.nuxt-content h5 {
+  @apply text-lg font-bold text-gray-500 mb-4;
+}
+
+.nuxt-content h6 {
+  @apply text-lg font-bold text-gray-400 mb-4;
+}
+
+.nuxt-content p {
+  @apply mb-4;
+}
+
+.nuxt-content ul {
+  @apply mb-6;
+}
+
+.nuxt-content ul li {
+  @apply mb-2 list-disc list-outside;
+}
+
+.nuxt-content ol {
+  @apply mb-6;
+}
+
+.nuxt-content ol li {
+  @apply mb-2 list-decimal list-outside;
+}
+
+.nuxt-content img {
+  @apply rounded-md my-8;
+}
+
+.nuxt-content blockquote {
+  @apply border-l-2 pl-2 py-2 border-gray-900 bg-gray-50 rounded-r-lg mb-4;
+}
+
+.nuxt-content blockquote p {
+  @apply mb-0;
+}

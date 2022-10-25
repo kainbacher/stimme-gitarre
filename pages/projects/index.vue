@@ -12,7 +12,7 @@ export default {
   async asyncData({ $content, error }) {
     let posts;
     try {
-      posts = await $content("projects").fetch();
+      posts = await $content("projects").where({ visible: true }).fetch();
     } catch (e) {
       error({ message: "Projects not found" });
     }
