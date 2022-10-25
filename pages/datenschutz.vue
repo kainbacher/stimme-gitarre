@@ -1,13 +1,13 @@
 <template>
   <main>
-    <section class="text-gray-600 body-font py-48">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <section class="text-gray-600 body-font py-24">
+      <div class="container px-5 mx-auto flex flex-wrap gap-8">
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 mb-2 md:w-1/5"
         >
           Datenschutz
-          <br class="hidden lg:inline-block" /><span class="text-gray-500"
-            >Branner</span
+          <br class="hidden lg:inline-block" />
+          <span class="text-gray-500">Melanie Schuchter</span
           >
         </h1>
         <div class="md:w-3/5 md:pl-6">

@@ -1,24 +1,21 @@
 <template>
   <main>
-    <section class="text-gray-600 body-font py-48">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <section class="text-gray-600 body-font py-24">
+      <div class="container px-5 mx-auto flex flex-wrap gap-8">
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 mb-2 md:w-1/5"
         >
           Impressum
-          <br class="hidden lg:inline-block" /><span class="text-gray-500"
-            >Branner</span
-          >
+          <br class="hidden lg:inline-block" />
+          <span class="text-gray-500">Melanie Schuchter</span>
         </h1>
         <div class="md:w-3/5 md:pl-6">
           <h2 class="mb-2 text-2xl">Verantwortlich für den Inhalt der Website</h2>
           <p class="leading-relaxed text-base">
-            Branner Gruppe GmbH
-            <br />
-            Treietstraße 2
-            <br />
-            6833 Klaus / Österreich
-            <br />
+              Melanie Schuchter<br />
+              Eichenweg 10<br />
+              6774 Tschagguns<br />
+              Österreich
           </p>
           <h2 class="mt-8 mb-2 text-2xl">Inhalt</h2>
           <p>
