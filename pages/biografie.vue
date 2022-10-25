@@ -41,7 +41,6 @@
               ich parallel bei diversen Big Bands als Sängerin mit und verfolge meine
               Solokarriere unter dem Titel “Stimme & Gitarre” leidenschaftlich weiter.
             </p>
-            <a class="text-cyan-500 inline-flex items-center"> Zur Biografie </a>
           </div>
         </div>
       </div>

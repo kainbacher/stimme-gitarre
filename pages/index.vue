@@ -42,9 +42,12 @@
                 “Stimme & Gitarre” ihr Herz verzaubern und gemeinsam unvergessliche
                 Momente schaffen. Ich freue mich von Ihnen zu hören.
               </p>
-              <a class="text-cyan-500 inline-flex items-center">
+              <nuxt-link
+                to="/biografie"
+                class="text-cyan-500 hover:text-cyan-600 inline-flex items-center"
+              >
                 Zur Biografie
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
