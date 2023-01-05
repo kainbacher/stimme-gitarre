@@ -1,3 +1,20 @@
+<script>
+export default {
+  head: {
+    title: 'Impressum - Melanie Schuchter - Stimme Gitarre',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Lassen Sie uns gemeinsam ihre Hochzeit unvergesslich machen, ihre Agape, den Sektempfang, ein gemütliches Dinner zu etwas ganz Besonderen gestalten oder auch den Vortragsabend musikalisch umranden.'
+      }
+    ],
+  }
+}
+</script>
+
 <template>
   <main>
     <section class="text-gray-600 body-font py-24">

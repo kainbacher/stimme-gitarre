@@ -41,6 +41,7 @@
     <div class="bg-cyan-600">
       <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
         <p class="text-sm text-cyan-200 sm:ml-6 sm:mt-0 mt-4">© 2022 Melanie Schuchter</p>
+        <!--
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a class="text-cyan-200">
             <svg
@@ -71,6 +72,7 @@
             </svg>
           </a>
         </span>
+        -->
       </div>
     </div>
   </footer>

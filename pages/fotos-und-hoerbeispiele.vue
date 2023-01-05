@@ -1,3 +1,20 @@
+<script>
+export default {
+  head: {
+    title: 'Fotos und Hörbeispiele - Melanie Schuchter - Stimme Gitarre',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Lassen Sie uns gemeinsam ihre Hochzeit unvergesslich machen, ihre Agape, den Sektempfang, ein gemütliches Dinner zu etwas ganz Besonderen gestalten oder auch den Vortragsabend musikalisch umranden.'
+      }
+    ],
+  }
+}
+</script>
+
 <template>
   <main>
     <section class="text-gray-600 body-font">
@@ -8,11 +25,13 @@
           >
             Fotos & Hörbeispiele
           </h1>
+          <!--
           <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify,
             subway tile poke farm-to-table. Franzen you probably haven't heard of them man
             bun deep jianbing selfies heirloom.
           </p>
+          -->
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
           <div class="flex flex-wrap w-1/2">
